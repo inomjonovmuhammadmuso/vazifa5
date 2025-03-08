@@ -1,0 +1,98 @@
+@import url(./fonts.css);
+
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-family: Manrope;
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.first-section {
+  width: 1110px;
+  height: 560px;
+  margin-top: 160px;
+  margin-left: 165px;
+  display: flex;
+  flex-direction: row;
+}
+
+.second-section {
+  width: 1110px;
+  height: 560px;
+  margin-top: 160px;
+  margin-left: 165px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.type1 {
+  width: 540px;
+  height: 560px;
+}
+
+.type-text {
+  width: 445px;
+  height: 343px;
+  margin-top: 109px;
+  margin-left: 125px;
+}
+
+.condition {
+  width: 199px;
+  height: 19px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.12px;
+  letter-spacing: 10px;
+  color: #d87d4a;
+  white-space: nowrap;
+}
+
+.name {
+  width: 445px;
+  height: 88px;
+  margin-top: 16px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 44px;
+  letter-spacing: 1.43px;
+}
+
+.description {
+  width: 445px;
+  height: 100px;
+  margin-top: 32px;
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+
+.type1-button {
+  width: 160px;
+  height: 48px;
+  margin-top: 40px;
+  background-color: #d87d4a;
+  padding-top: 15px;
+  padding-left: 31.5px;
+  padding-bottom: 15px;
+  padding-right: 31.5px;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 17.76px;
+  white-space: nowrap;
+  letter-spacing: 1px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.type1-button:hover {
+  background-color: #f7b891;
+  color: white;
+  transition: 0.6s;
+}
